@@ -1,0 +1,17 @@
+
+<div>
+    <div (mouseleave)="showDropDown = false">
+        <button class="drop-toggle btn flat selectDesign" (click)="showDropDown=!showDropDown">
+            <span *ngIf="checkedList.length<=0">Select</span>
+            <span *ngIf="checkedList.length>0">{{checkedList.join(', ')}}</span>
+            <i class="fa fa-angle-down"></i>
+        </button>
+        <div class="drop-show" *ngIf="showDropDown">
+            <label *ngFor="let a of uniqueGenresPair">
+                <input type="checkbox" [(ngModel)]="a.checked" style="margin-top: 5px;"
+                    (change)="getSelectedValue(a.checked,a.name)" />
+                <span style=" margin-left: 4px;">{{a.name}}</span>
+            </label>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,76 @@
+mat-paginator{
+    background: #212121;
+}
+
+mat-paginator{
+    color: #fff;
+}
+
+.searchdesign{
+    height: 44px;
+    background: #212121;
+    border: 1px solid #716e6e;
+    color: #fff;
+    font-size: 15px;
+}
+
+.searchdesignSort{
+    height: 47px;
+    background: #212121;
+    border: 1px solid #716e6e;
+    color: #fff;
+    font-size: 15px;
+    align-items: center;
+    padding: 6px;
+    margin-left: 140px;
+    display: flex;
+  align-items: flex-end;
+}
+.btnDesign{
+    height: 34px;
+    border-radius: 0;
+    width: 55px;
+    background: #dc4666;
+    border: #dc4666;
+}
+.btnReleaseDate{
+    height: 34px;
+    border-radius: 0;
+    width: 70px;
+    background: #dc4666;
+    border: #dc4666;
+}
+.btnVoteAvg{
+    height: 34px;
+    border-radius: 0;
+    width: 70px;
+    background: #dc4666;
+    border: #dc4666;
+}
+.btnVoteCount{
+    height: 34px;
+    border-radius: 0;
+    width: 65px;
+    background: #dc4666;
+    border: #dc4666;
+}
+
+.titleMargin {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.sort__title {
+    font-size: 1.8rem;
+    letter-spacing: 0.4px;
+    padding-bottom: 20px;
+  
+    @media (min-width: 1200px) {
+      font-size: 2.4rem;
+    }
+  }
+
+  p {
+    font-family: Lato;
+  }
+  
